@@ -30,16 +30,6 @@ export default defineComponent({
     }
   }
 })
-   
-   
-    
-
-
-
-
-
-
-
 </script>
 
 <template>
@@ -90,7 +80,7 @@ export default defineComponent({
 
                             <v-switch class="mb-2" color="deep-purple-accent-4" label="E-mail"
                                 v-model="notificacaoEmail"></v-switch>
-                            <v-switch class="mb-2" color="deep-purple-accent-4" label="Push" v-model="notificacaoPush"
+                            <v-switch class="mb-2" color="deep-purple-accent-4" label="Push" v-model="notificacaoPush">
                                 </v-switch>
                                 <v-switch color="deep-purple-accent-4" label="WhatsApp"
                                     v-model="notificacaoWhatsapp"></v-switch>
@@ -102,8 +92,7 @@ export default defineComponent({
 
                         <!-- card modo de uso -->
                         <div class="mb-8">
-                            <h2 class="text-subtitle-1
-                             mb-4">
+                            <h2 class="text-subtitle-1 mb-4">
                                 Modo de uso
                             </h2>
                             <v-radio-group class="mb-2" v-model="modoDeUso">
